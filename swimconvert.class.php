@@ -395,7 +395,7 @@ class SwimConvert {
                 </label>
 
                 <div class="label">
-                    {$minutes_field}:{$seconds_field}.{$hundredths_field}
+                    {$minutes_field}:{$seconds_field}.{$hundredths_field} (mm:ss.hh)
                 </div>
 
             </fieldset>

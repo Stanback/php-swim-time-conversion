@@ -169,16 +169,18 @@
 
     <h2>Download</h2>
 
-    <p>The source code is available here (version 3.0.0, 1/1/2013):</p>
+    <p>The source code is available below (version 3.0.0, last modified on 1/1/2013):</p>
 
     <ul>
-        <li><a href="index.php.txt">Form code (PHP)</a></li>
-        <li><a href="swimconvert.class.php.txt">Swim conversion class (PHP)</a></li>
+        <li><a href="https://github.com/Stanback/php-swim-time-conversion/blob/master/index.php">Form code (PHP)</a></li>
+        <li><a href="https://github.com/Stanback/php-swim-time-conversion/blob/master/swimconvert.class.php">Swim conversion class (PHP)</a></li>
     </ul>
+
+    <p>The code is a recent refactoring and should be considered as a beta-level product.</p>
 
     <h2>GitHub</h2>
 
-    <p>The project is now <a href="http://github.com/Stanback/php-swim-time-conversion">available on GitHub</a>.</p>
+    <p>The project is <a href="http://github.com/Stanback/php-swim-time-conversion">available on GitHub</a>.</p>
 
     <h2>Terms of Use</h2>
 
