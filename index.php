@@ -198,6 +198,10 @@
 
     <p>If you make any significant changes to the script, please <a href="http://help.github.com/articles/creating-a-pull-request">create a pull request</a> on <a href="http://github.com/Stanback/php-swim-time-conversion">GitHub</a> and I will consider incorporating the changes into the master release.</p>
 
+    <h2>Credits</h2>
+
+    <p>The conversion factors were sourced from the <a href="http://www.csi.org/conversions.aspx">Colorado Swimming</a> website.</p>
+
 </div>
 
 <div id="footer">
