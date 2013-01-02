@@ -487,7 +487,7 @@ EOF;
      * @access public
      */
     public function convert_time($stroke, $distance, $time, $from, $to) {
-        if (empty($from) && empty($to)) {
+        if (empty($from) || empty($to)) {
             // No conversion necessary
             return $time;
         }
