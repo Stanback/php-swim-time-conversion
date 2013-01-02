@@ -286,8 +286,11 @@ class SwimConvert {
             } elseif ((!empty($course_from) && !empty($course_to)) && $course_from == $course_to) {
                 // To and from course are the same
                 $this->_current_conversion_errors[] = 'The courses to convert from/to are identical.';
+            } elseif ((!empty($course_from) && empty($course_to)) || (empty($course_from) && !empty($course_to))) {
+                // No to/from course entered
+                $this->_current_conversion_errors[] = 'Please specify both the course to convert from and the course to convert to.';
             } elseif ((empty($course_from) || empty($course_to)) && empty($altitude_adjustment)) {
-                // No to/from course entered and no altitude conversion
+                // No course entered and no altitude conversion
                 $this->_current_conversion_errors[] = 'Please specify the course conversion and/or an altitude adjustment.';
             }
 
@@ -463,9 +466,9 @@ EOF;
         $converted_time = $this->convert_time($this->_current_conversion['stroke'], $this->_current_conversion['distance'], $converted_time, $this->_current_conversion['course_from'], $this->_current_conversion['course_to']);
 
         // Extract the minute, second, and hundredths components
-        $minutes = sprintf("%02d", intval($converted_time / 60));
-        $seconds = sprintf("%02d", intval($converted_time - ($minutes * 60)));
-        $hundredths = sprintf("%02d", intval(($converted_time - (($minutes * 60) + $seconds)) * 100));
+        $minutes = sprintf('%02d', intval($converted_time / 60));
+        $seconds = sprintf('%02d', intval($converted_time - ($minutes * 60)));
+        $hundredths = sprintf('%02d', intval(($converted_time - (($minutes * 60) + $seconds)) * 100));
 
         // Return the result
         $errors = '';
