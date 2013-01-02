@@ -6,9 +6,25 @@
  * It can be used with different sets of conversion factors.
  * The class also handles altitude conversion for longer events.
  *
- * @auithor Brian Stanback
- * @copyright Brian Stanback 2012
+ *   Copyright (C) 2013 Brian Stanback
+ *
+ *   This program is free software: you can redistribute it and/or modify
+ *   it under the terms of the GNU General Public License as published by
+ *   the Free Software Foundation, either version 3 of the License, or
+ *   (at your option) any later version.
+ *
+ *   This program is distributed in the hope that it will be useful,
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ *   GNU General Public License for more details.
+ *
+ *   You should have received a copy of the GNU General Public License
+ *   along with this program. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * @author Brian Stanback
+ * @copyright Brian Stanback 2013
  * @version 3.0.0
+ * @license GPLv3
  * @link http://www.brianstanback.com/
  */
 class SwimConvert {
