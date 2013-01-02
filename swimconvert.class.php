@@ -230,16 +230,19 @@ class SwimConvert {
 
     /**
      * @var string The name of the factor set to use, selected when constructing the class.
+     * @access private
      */
     private $_active_factor_set;
 
     /**
      * @var array An array containing information about the current conversion
+     * @access private
      */
     private $_current_conversion;
 
     /**
      * @var array The error message if a conversion failed or invalid data was posted
+     * @access private
      */
     private $_current_conversion_errors;
 
