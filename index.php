@@ -176,7 +176,7 @@
         <li><a href="https://github.com/Stanback/php-swim-time-conversion/blob/master/swimconvert.class.php">Swim conversion class (PHP)</a></li>
     </ul>
 
-    <p>The code is a recent refactoring and should be considered as a beta.</p>
+    <p>The code is a recent refactoring and should be considered to be a beta version.</p>
 
     <h2>GitHub</h2>
 
