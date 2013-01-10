@@ -274,7 +274,7 @@ class SwimConvert {
             // Get the time
             $minutes    = isset($_POST['minutes'])   ? abs(intval($_POST['minutes']))    : 0;
             $seconds    = isset($_POST['seconds'])   ? abs(intval($_POST['seconds']))    : 0;
-            $hundredths = isset($_POST['hunredths']) ? abs(intval($_POST['hundredths'])) : 0;
+            $hundredths = isset($_POST['hundredths']) ? abs(intval($_POST['hundredths'])) : 0;
 
             // Get the conversion details
             $event               = isset($_POST['event'])               ? $_POST['event']               : '';
